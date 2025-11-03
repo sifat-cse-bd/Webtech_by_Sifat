@@ -1,8 +1,8 @@
 /* General Body Styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f3f6f9;
-  display: flex;
+  background-color: #0b4d8e96;
+  display:flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -16,10 +16,12 @@ form {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 350px;
+  
 }
 
 /* Form Header */
 h2 {
+  text-shadow: green;
   text-align: center;
   color: #333;
   margin-bottom: 20px;

@@ -1,36 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
     <head>
-        <meta name = "Description" content = "Sifat Program">
-        <meta name = "Keyword" content = "program, new program, learn html, html learn, html">
-        <meta charset = "UTF-8">
-        <meta name = "Author" content = "Sifat">
-        <meta name http-equiv = "refresh" content = "30">
-        <meta property ="og:title" content = "My website">
-        <meta name = "viewport" content = "width=device-width, initial-sclale-1.0">
-
-
         <title>My First Program</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content="width = device-width, initial-scale = 1.0"
+        <link rel = "stylesheet", href = "Second.css">
     </head>
 
     <body>
-        <h3>My First Program</h3>
-        <h2>My Second Program</h2>
-        Hello World <br>
-        Hello Bangladesh <br>
+        <form action = "/register" method = "post">
+            <h2 style = "text-align: center;">Registration Form</h2><br>
+            <br>
+            <label for = "firstname">First Name:</label>
+            <input type = "text" id = "firstname" name = "firstname" required>
+            <br><br>
 
-        <!--Basic form design-->
-        <h2 bgcolor = "Green" >Registration Form</h2>
-        <form action ="/register" method="Post">
-            <!--Full Name field-->
-            <label for = "fullname"> Full Name: </label>
-            <input type="text" id = "fullname" name = "fullname" required> <br> <br>
+            <label for = "lastname">Last Name:</label>
+            <input type = "text" id = "lastname" name = "lastname" required>
+            <br><br>
+            <label for = "newpassword">New Password:</label>
+            <input type = "password" id = "newpassword" name = "newpassword" required>
+            <br><br>
 
-            <!--Password field-->
-            <label for = "password"> Password    :</label>
-            <input type="password" id = "password" name = "password" required> <br> <br>
+            <label for = "confirmpassword">New Password:</label>
+            <input type = "password" id = "confirmpassword" name = "confirmpassword" required>
+            <br><br>
+
+            <label>Gender:</label>
+            <div class = "gender-group">
+                <input type = "radio" id = male name = gender required>
+                <label for = male>Male</label>
+                <input type = "radio" id = female name = gender required>
+                <label for = "female">Female</label>
+            </div>
+
+            <label for = "dob">Date of birth</label>
+            <input type = "date" id = "dob" name = "dob" required>
 
 
+
+        
+                
+
+            
         </form>
+        </form>
+        
     </body>
 </html>
