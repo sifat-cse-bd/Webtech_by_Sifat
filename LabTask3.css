@@ -7,6 +7,11 @@ body{
     padding: 30px;
 }
 
+input [type ="text"]{
+  width: 20%;
+  display: flex;
+}
+
 .Donation_Form {
   background: #EBEBEB;
   padding: 30px 40px;
@@ -22,7 +27,22 @@ body{
   padding-bottom: 5px;
   margin-top: 25px;
 }
-
+img{
+  width: 80px;
+  height: 80px;
+  border-color: black;
+  border-width: 10;
+  border-radius: 50px;
+  box-shadow: #333;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  image-resolution: inherit;
+  image-orientation: flip;
+  border-image: round;
+  border-image-outset: 10px;
+  -moz-image-region: ;
+}
 
 label.required::after{
   content: "*";

@@ -34,7 +34,10 @@ label {
   color: #333;
   font-weight: bold;
 }
-
+#first_name{
+  width: 10px;
+  color: red;
+}
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -103,6 +106,6 @@ input:focus, select:focus {
 /* Responsive Design */
 @media (max-width: 400px) {
   form {
-    width: 90%;
+    width: 90%;0+
   }
 }
